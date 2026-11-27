@@ -6,6 +6,7 @@ Run: open `index.html` directly, or serve the folder with `python3 -m http.serve
 
 - `index.html`: landing page (hero sunrise, about, upcoming series, December note, gallery, WhatsApp band)
 - `series.html`: series details page
+- `past-events.html`: אירועים קודמים photo page (photos in `assets/past/`)
 - `styles.css`: all styles; colors are CSS custom properties named after the design tokens
 - `main.js`: the hero sunrise (adds `.is-risen` to `.sun`), navbar active-section highlight and scroll shadow
 - `assets/`: photos
