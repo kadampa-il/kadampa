@@ -243,8 +243,8 @@ html { scroll-padding-top: 96px; }
   box-shadow: 0 20px 48px rgba(156, 40, 42, 0.12);
 }
 .photo--strong { box-shadow: 0 20px 48px rgba(156, 40, 42, 0.14); }
-/* Posters are shown whole at their own proportions, never cropped to the 4:5 photo frame */
-.series-poster .photo { aspect-ratio: auto; }
+/* Posters are shown whole at their own proportions, with barely rounded corners */
+.series-poster .photo { aspect-ratio: auto; border-radius: 3px; }
 .caption {
   font-size: 13px;
   line-height: 18px;
@@ -522,7 +522,7 @@ html { scroll-padding-top: 96px; }
   display: block;
   width: 100%;
   height: auto;
-  border-radius: var(--radius-md);
+  border-radius: 3px;
   box-shadow: 0 20px 48px rgba(156, 40, 42, 0.14);
 }
 @media (min-width: 1100px) {
