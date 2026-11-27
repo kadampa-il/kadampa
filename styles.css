@@ -699,9 +699,8 @@ html { scroll-padding-top: 96px; }
   .teacher-figure { align-items: center; text-align: center; }
 }
 
-/* Past events page */
-.past-intro { padding: 56px 24px 32px; }
-.past-gallery { columns: 3 260px; column-gap: 16px; }
+/* Past events (landing page) */
+.past-gallery { columns: 3 260px; column-gap: 16px; margin-top: 16px; }
 .past-gallery__item { margin: 0 0 16px; break-inside: avoid; }
 .past-gallery__item img {
   display: block;
@@ -709,8 +708,4 @@ html { scroll-padding-top: 96px; }
   height: auto;
   border-radius: var(--radius-md);
   box-shadow: 0 20px 48px rgba(156, 40, 42, 0.12);
-}
-@media (max-width: 640px) {
-  .past-intro { padding: 32px 16px 24px; }
-  .gallery { padding: 0 16px 56px; }
 }
