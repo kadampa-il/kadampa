@@ -700,6 +700,11 @@ html { scroll-padding-top: 96px; }
 }
 
 /* Past events (landing page) */
+.section--past { padding-bottom: 0; }
+.section--past + .section { padding-top: 64px; }
+@media (max-width: 640px) {
+  .section--past + .section { padding-top: 40px; }
+}
 .past-gallery { columns: 3 260px; column-gap: 16px; margin-top: 16px; }
 .past-gallery__item { margin: 0 0 16px; break-inside: avoid; }
 .past-gallery__item img {
