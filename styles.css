@@ -243,6 +243,8 @@ html { scroll-padding-top: 96px; }
   box-shadow: 0 20px 48px rgba(156, 40, 42, 0.12);
 }
 .photo--strong { box-shadow: 0 20px 48px rgba(156, 40, 42, 0.14); }
+/* Posters are shown whole at their own proportions, never cropped to the 4:5 photo frame */
+.series-poster .photo { aspect-ratio: auto; }
 .caption {
   font-size: 13px;
   line-height: 18px;
@@ -520,8 +522,6 @@ html { scroll-padding-top: 96px; }
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
   border-radius: var(--radius-md);
   box-shadow: 0 20px 48px rgba(156, 40, 42, 0.14);
 }
@@ -692,6 +692,8 @@ html { scroll-padding-top: 96px; }
     max-height: 55vh;
     margin-inline: auto;
   }
+  .series-poster .photo,
+  .poster-tall { width: auto; }
   .about-figure,
   .series-poster,
   .teacher-figure { align-items: center; text-align: center; }
